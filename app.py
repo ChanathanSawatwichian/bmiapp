@@ -28,4 +28,13 @@ if st.button("CALCULATE"):
         st.error("อ้วนมาก")
         st.warning("ภาวะน้ำหนักเกินมากโรคอ้วน")
         st.image("5.png")
-    
+bg1="""
+<style>
+.stApp {
+    background-color: #FFFF00;
+    color: #0049FF;
+}
+</style>
+"""
+
+st.html(bg1)
